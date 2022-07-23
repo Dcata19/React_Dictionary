@@ -9,7 +9,7 @@ export default function Add({ input, setWords, setMessage}) {
 
     return (
         <>
-        <button className="btn btn-success" onClick={handleInputChange}>Add</button>
+        <button className="btn btn-success" onClick={addWord}>Add</button>
         </>
     )
 }
