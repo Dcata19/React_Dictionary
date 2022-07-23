@@ -2,7 +2,7 @@ import React from 'react'
 
 export default function Add({ input, setWords, setMessage}) {
 
-    function handleInputChange() {
+    function addWord() {
         setMessage('');
         setWords(current => [...current, input]);
     }
